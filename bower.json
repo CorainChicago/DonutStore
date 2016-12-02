@@ -1,0 +1,24 @@
+{
+  "name": "donut_shop",
+  "authors": [
+    "CorainChicago <chaysmagan@gmail.com>"
+  ],
+  "description": "donuts",
+  "main": "main",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handsontable": "^0.29.0",
+    "jquery": "^3.1.1",
+    "knockout": "^3.4.1",
+    "bootstrap": "^3.3.7",
+    "requirejs": "^2.3.2"
+  }
+}

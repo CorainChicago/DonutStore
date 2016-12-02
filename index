@@ -4,6 +4,27 @@
         <script data-main="app" src="./bower_components/requirejs/require.js"></script>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <h1>Donut Shop</h1>
+        <h3>We have donuts.</h3>
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Cost</th>
+              <th>Rating</th>
+              <th>Description</th>
+            </tr>  
+          </th> 
+          <tbody data-bind="foreach: donuts">
+              <tr>
+                <td data-bind="text: name"></td>
+                <td data-bind="text: type"></td>
+                <td data-bind="text: cost"></td>
+                <td data-bind="text: rating"></td>
+                <td data-bind="text: description"></td>
+              </tr>  
+          </tbody>   
+        </table>
+
     </body>
 </html>
